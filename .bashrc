@@ -1,0 +1,4 @@
+echo "bashrc"
+export PATH="./node_modules/.bin:$PATH"
+export ARTIFACTORY_AUTH=bm1lcmNoYW50OkFLQ3A1WjNNM0dndFljVGlpMm9iTmlMaVNFRXQ0NmpEZWhybk1aUlluWFpzYTRRSk5xQlpacUV2b3BxaFZqQzM2Sk5IR0JjWk0=
+export ARTIFACTORY_EMAIL=nmerchant@salesforce.com
