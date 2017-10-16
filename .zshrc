@@ -49,7 +49,8 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG1/bin:/usr/local/MacGPG2/bin"
+export PATH="$PATH:/usr/local/MacGPG1/bin:/usr/local/MacGPG2/bin"
+export PATH="./node_modules/.bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -79,3 +80,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export ARTIFACTORY_AUTH=bm1lcmNoYW50OkFLQ3A1WjNNM0dndFljVGlpMm9iTmlMaVNFRXQ0NmpEZWhybk1aUlluWFpzYTRRSk5xQlpacUV2b3BxaFZqQzM2Sk5IR0JjWk0=
+export ARTIFACTORY_EMAIL=nmerchant@salesforce.com
+
+export NVM_DIR="/Users/nmerchant/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
